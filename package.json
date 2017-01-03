@@ -1,0 +1,29 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run vendor && node index.js",
+    "build": "set NODE_ENV=production&& npm run vendor && webpack --progress",
+    "demo": "set NODE_ENV=production&& npm run build && node index.js",
+    "vendor": "webpack --progress --config webpack.config.deps.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "compression": "^1.6.2",
+    "connect": "^3.5.0",
+    "regenerator-runtime": "^0.10.1",
+    "serve-static": "^1.11.1",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.14.0"
+  },
+  "dependencies": {
+  }
+}
