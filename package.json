@@ -17,6 +17,7 @@
     "babel-preset-latest": "^6.16.0",
     "compression": "^1.6.2",
     "connect": "^3.5.0",
+    "extract-text-webpack-plugin": "^1.0.1",
     "regenerator-runtime": "^0.10.1",
     "serve-static": "^1.11.1",
     "source-map-loader": "^0.1.5",
@@ -25,5 +26,6 @@
     "webpack-hot-middleware": "^2.14.0"
   },
   "dependencies": {
+    "axios": "^0.15.3"
   }
 }
