@@ -37,7 +37,7 @@ module.exports = {
         loader: "babel-loader",
         exclude: /(node_modules|bower_components)/,
         query: {
-          presets: ['babel-preset-latest']
+          presets: ['latest', 'stage-0', 'stage-1', 'stage-2']
         }  
       },
       //{ test: /\.ts$/, loader: "ts-loader" },

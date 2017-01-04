@@ -21,7 +21,8 @@ module.exports = {
     ]).concat([
       "webpack/buildin/module.js",
       "regenerator-runtime/runtime.js",
-      "axios"
+      "axios",
+      "debug"
       // "babel-polyfill",
       //"react-hot-loader",
       //"lodash",
